@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project1.1</title>
+    <style>
+      body {
+        background: url("image/microsoft 1.1.jpg");
+      }
+
+      .left {
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        margin: 13px 5px;
+      }
+      .left img {
+        width: 100px;
+      }
+      .navbar {
+        display: block;
+        width: 550px;
+        position: absolute;
+        top: 4px;
+        left: 500px;
+        border: 2px solid black;
+        font-weight: bold;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 15px;
+        font-size: 25px;
+        color: black;
+        padding: 7px 7px;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline;
+        color: blue;
+      }
+
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 4px;
+        margin: 13px 5px;
+        border: 2px solid black;
+      }
+      .right input {
+        text-align: center;
+      }
+      .container{
+        position: absolute;
+        right: 50px;
+        top: 350px;
+        border: 2px solid black;
+        padding: 60px 50px;
+
+      }
+      .container .box{
+        margin: 7px;
+      }
+      
+      .container .box input{
+        border: 2px solid black;
+        margin: 3px;
+        padding: 4px;
+        
+      }
+      .container .bts{
+        display: inline-block;
+        border: 2px solid black;
+        margin: 10px 70px ;
+        padding: 5px 20px;
+        cursor: pointer;
+          font-weight: bold;
+
+      }
+
+      .bts:hover{
+        color: blue;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <img src="image/microsoft-logo 2.png" alt="" />
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">company</a></li>
+        <li><a href="#">location</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <input type="text" id="" placeholder="serach here" />
+    </div>
+    <div class="container">
+      <form action="noction">
+        <h1>Login</h1>
+        <div class="box">
+          <input type="text" id="" placeholder="enter your name" />
+        </div>
+        <div class="box">
+          <input type="password" id="" placeholder="enter your password" />
+        </div>
+        <div class="box">
+          <input type="email" id="" placeholder="enter your email" />
+        </div>
+          <button type="submit" class="bts">login</button>
+      </form>
+    </div>
+  </body>
+</html>
